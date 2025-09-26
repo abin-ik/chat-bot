@@ -1,0 +1,31 @@
+{
+    "intents":
+
+    [
+
+        { 
+          "tag" : "greeting"  , 
+          "patterns" : [ "hi" , "hello" , "hey" ] ,
+          "responses" : [ "Hello!" , "Hi there!" , "hey! "] 
+        } ,
+
+        {
+            "tag" : "thankyou" ,
+            "patterns" : ["thankyou" , "thanks" , "thnq" ] ,
+            "responses" : [" you are welocme" , "no problem" , "anytime" , " no mention"] 
+        } ,
+
+        {
+            "tag" : "goodbye" ,
+            "patterns" : ["bye" , " see you soon" , "good bye" , "tata"] ,
+            "responses" : [ "see you soon" , "will see you soon" , "take care"]
+        } ,
+
+        {
+            "tag" : "name" ,
+            "patterns" : ["what is your name" , "who are you" , "your name"] ,
+            "responses" : [ "i am chat bot" , "call me chat bot"]
+        }
+
+    ]
+}
